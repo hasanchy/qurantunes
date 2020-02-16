@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import ReactAudioPlayer from './ReactAudioPlayer';
+import AudioPlayer from './components/AudioPlayer';
 
 class App extends Component {
   render() {
@@ -8,6 +9,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <ReactAudioPlayer/>
+          <AudioPlayer />
         </header>
       </div>
     );

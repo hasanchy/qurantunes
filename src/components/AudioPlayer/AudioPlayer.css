@@ -1,0 +1,25 @@
+.player-container {
+    width: 100%;
+    clear: both;
+    color: #000000;
+    border: 1px solid #20907D;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.player-content-container{
+    clear: both;
+    height: 200px;
+    background-color: #000000;
+}
+
+.player-progressbar-container{
+    clear: both;
+    height: 8px;
+    position: relative;
+}
+
+.player-buttons-container{
+    clear: both;
+    height: 50px;
+}

@@ -17,9 +17,9 @@ class ReactAudioPlayer extends Component {
     this.state = {
       source: "audio/001.mp3",
       duration: 51.9,
-      startTime: 5,
-      endTime: 48,
-      currentTime: 5,
+      startTime: 0,
+      endTime: 51.9,
+      currentTime: 0,
       seekedTime: 0,
       play: false,
       replay: true,
