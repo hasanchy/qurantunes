@@ -285,7 +285,7 @@ class SliderHandles extends Component {
             drag:true,
             pageX:pageX
         });
-        //this.props.onDragStart(this.props.index, this.state.value, this.state.position)
+        this.props.onDragStart(this.props.index, this.state.value, this.state.position)
     }
     
     handleDragMove(e){
@@ -307,6 +307,8 @@ class SliderHandles extends Component {
                 position: newPosition,
                 positionMax:this.props.sliderLength
             });
+
+            this.props.onDragMove(this.props.index, this.state.value, newPosition)
         }
     }
 
@@ -341,8 +343,8 @@ class SliderHandles extends Component {
     }
     
     renderCircle(){
-        return <div id="handle" style={{cursor:"pointer",width:"28px",height:"28px",backgroundColor:"#134F63",borderRadius:"50%",position:"absolute",top:"-18px",marginLeft:"-13px",opacity:"1",transform:"scale(1)",boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
-            <div style={{borderRadius:"50%",backgroundColor:"#FFFFFF",width:"14px",height:"14px",top:"7px",left:"7px",position:"absolute"}}></div>
+        return <div id="handle" style={{cursor:"pointer",width:"20px",height:"20px",backgroundColor:"#ff5722",borderRadius:"50%",position:"absolute",top:"-15px",marginLeft:"-11px",opacity:"1",transform:"scale(1)",boxShadow:"0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}}>
+            {/* <div style={{borderRadius:"50%",backgroundColor:"#ff5722",width:"14px",height:"14px",top:"7px",left:"7px",position:"absolute"}}></div> */}
         </div>
     }
     
