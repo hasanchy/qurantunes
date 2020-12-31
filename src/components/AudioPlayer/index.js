@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './AudioPlayer.css';
+import Progress from './progress';
 import ProgressBar from './ProgressBar';
 import SliderHandles from './SliderHandles';
 import ReactAudio from './ReactAudio';
@@ -22,6 +23,7 @@ class AudioPlayer extends Component {
             replay: true,
             mute: false,
             volume: 50,
+            progress:0,
             subTitle: {
                 0:"আমি বিতাড়িত শয়তান থেকে আল্লাহর নিকট আশ্রয় প্রার্থনা করছি।",
                 6:"শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।",
@@ -80,8 +82,12 @@ class AudioPlayer extends Component {
       }
 
       onListen( currentTime ){
+          let progress = 100-(100*((this.state.duration-currentTime)/this.state.duration));
+          console.log(progress);
+        //   barPosition =
         this.setState({
-          currentTime:currentTime
+          currentTime:currentTime,
+          progress:progress
         });
       }
 
@@ -108,24 +114,10 @@ class AudioPlayer extends Component {
                     Hello world
                 </div>
                 <div className="player-progressbar-container" id="player-progressbar-container">
-                    <ProgressBar 
-                        positions={barPositions} 
-                        color={colors} 
+                    <Progress
+                        progress={this.state.progress}
+                        sliderLength={this.state.sliderLength}
                     />
-                    <SliderHandles 
-                        type="default"
-                        sliderLength={this.state.sliderLength} 
-                        index={i} 
-                        zIndex={zIndex} 
-                        value={value} 
-                        valueMin={valueMin}
-                        valueMax={valueMax} 
-                        rangeMin={rangeMin} 
-                        rangeMax={rangeMax} 
-                        onLoad={this.handleOnLoad.bind(this)} 
-                        onDragStart={this.handleDragStart.bind(this)} 
-                        onDragMove={this.handleDragMove.bind(this)} 
-                        onDragEnd={this.handleDragEnd.bind(this)}/>
                     <ReactAudio
                         src={this.state.source}
                         startTime={this.state.startTime}
@@ -141,9 +133,9 @@ class AudioPlayer extends Component {
                 </div>
                 <div className="player-buttons-container">
                 <PlayButton
-              play={this.state.play}
-              onPlay={this.playAudio.bind(this)}
-              onPause={this.pauseAudio.bind(this)}/>
+                    play={this.state.play}
+                    onPlay={this.playAudio.bind(this)}
+                    onPause={this.pauseAudio.bind(this)}/>
                 </div>
             </div>
         );

@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
-//import SliderBar from './SliderBar';
+import ProgressBar from './bar';
+import ProgressHandle from './handle';
 
-class ProgressBar extends Component {
+class Progress extends Component {
 
     constructor(props) {
         super(props);
         this.state = {
-
+            status:true
         };
     }
 
 
     shouldComponentUpdate( nextProps, nextState ){
-        return true;
-		//return ( JSON.stringify(this.props) !== JSON.stringify(nextProps) ) ? true : false;
+        return (this.state.status)?true:false;
 	}
 
     renderInnerBars(){
@@ -38,9 +38,37 @@ class ProgressBar extends Component {
         )
     }
 
+    handleDragStart = () =>{
+        this.setState({
+            status:false
+        });
+    }
+
+    handleDragMove = (position) =>{
+        console.log(position);
+    }
+
+    handleDragEnd = () =>{
+        this.setState({
+            status:true
+        });
+    }
+
     render() {
-        return this.renderBars();
+        console.log(this.props.sliderLength);
+        return( <div>
+            <ProgressBar
+                progress={this.props.progress}
+            />
+            <ProgressHandle
+                sliderLength={this.props.sliderLength}
+                progress={this.props.progress}
+                onDragStart={this.handleDragStart}
+                onDragMove={this.handleDragMove}
+                onDragEnd={this.handleDragEnd}
+            />
+        </div>)
     }
 }
 
-export default ProgressBar;
+export default Progress;
