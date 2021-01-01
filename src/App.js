@@ -42,6 +42,11 @@ function QueryParamsDemo() {
 }
 
 function Watch({ q }) {
+  let audio = new Audio("/audio/067.mp3");
+  if(q){
+    audio.play();
+  }
+  
   return (
     <>
       {q ? (
@@ -72,13 +77,6 @@ function Thumbnails() {
             <Link to="/watch?q=4AQR4a9ZZ0I">
             <div style={{border:"1px solid #ddd", padding:"10px"}}>
               067 - Surah Mulk
-              </div>
-              </Link>
-          
-          
-            <Link to="/watch?q=oNlJsyklaVk">
-            <div style={{border:"1px solid #ddd", padding:"10px"}}>
-              014 - Surah Ibrahim
               </div>
               </Link>
           
