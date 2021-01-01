@@ -1,18 +1,32 @@
 {
     "65h4pdw6Bkc":{
         "name":"021 - Surah Anbiya",
-        "src":"021.mp3"
+        "src":"021.mp3",
+        "img":"mountain1.jpg",
+        "text":{
+            "13":{
+                "sa":"تَبَارَكَ الَّذِي بِيَدِهِ الْمُلْكُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+                "en":"Blessed be He in Whose hands is Dominion; and He over all things hath Power."
+            },
+            "24":{
+                "sa":"الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا وَهُوَ الْعَزِيزُ الْغَفُورُ",
+                "en":"He Who created Death and Life, that He may try which of you is best in deed: and He is the Exalted in Might, Oft-Forgiving."
+            }
+        }
     },
     "4AQR4a9ZZ0I":{
         "name":"067 - Surah Mulk",
-        "src":"067.mp3"
+        "src":"067.mp3",
+        "img":"unvrs1.jpg"
     },
     "EBec5wKMu58":{
         "name":"072 - Surah Jinn",
-        "src":"072.mp3"
+        "src":"072.mp3",
+        "img":"unvrs3.jpg"
     },
     "4pfbNgkfPtM":{
         "name":"002 - Surah Baqarah",
-        "src":"baqarah.mp3"
+        "src":"baqarah.mp3",
+        "img":"mountain2.jpg"
     }
 }

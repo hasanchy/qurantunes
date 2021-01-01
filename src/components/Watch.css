@@ -9,9 +9,8 @@
   #animate-area {
     padding: 50px;
     height: 300px;
-    background-image: url(http://localhost:3000/image/unvrs1.jpg);
     background-size:cover;
     background-position: 0px 0px;
     background-repeat: repeat-x;
-    animation: animatedBackground 50s linear infinite alternate;
+    animation: animatedBackground 80s linear infinite alternate;
   }
