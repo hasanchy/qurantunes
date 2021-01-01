@@ -4,6 +4,8 @@ import {
   Link,
   useLocation
 } from "react-router-dom";
+import Thumbnails  from "./components/Thumbnails";
+import Watch  from "./components/Watch";
 
 // React Router does not have any opinions about
 // how you should parse URL query strings.
@@ -35,65 +37,8 @@ function QueryParamsDemo() {
 
   return (
     <div  style={{padding:"30px"}}>
-      <Watch q={query.get("q")} />
+      <Watch id={query.get("q")} />
       <Thumbnails/>
-    </div>
-  );
-}
-
-function Watch({ q }) {
-  let audio = new Audio("/audio/067.mp3");
-  if(q){
-    audio.play();
-  }
-  
-  return (
-    <>
-      {q ? (
-        <div style={{backgroundColor:"#000", color:"#fff", height:"300px", padding:"10px"}}>
-        <h3>
-          The <code>name</code> in the query string is &quot;{q}
-          &quot;
-        </h3>
-        </div>
-      ) : (
-        <></>
-      )}
-    </>
-  );
-}
-
-function Thumbnails() {
-  return (
-    <div>
-      <div>
-            <Link to="/watch?q=65h4pdw6Bkc">
-              <div style={{border:"1px solid #ddd", padding:"10px"}}>
-              021 - Surah Anbiya
-              </div>
-            </Link>
-          
-          
-            <Link to="/watch?q=4AQR4a9ZZ0I">
-            <div style={{border:"1px solid #ddd", padding:"10px"}}>
-              067 - Surah Mulk
-              </div>
-              </Link>
-          
-          
-            <Link to="/watch?q=EBec5wKMu58">
-            <div style={{border:"1px solid #ddd", padding:"10px"}}>
-              072 - Surah Jinn
-              </div>
-              </Link>
-          
-          
-            <Link to="/watch?q=4pfbNgkfPtM">
-            <div style={{border:"1px solid #ddd", padding:"10px"}}>
-              002 - Surah Baqarah
-              </div>
-              </Link>
-      </div>
     </div>
   );
 }
