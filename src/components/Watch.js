@@ -2,40 +2,23 @@ import React, { useState, useEffect } from 'react';
 import db from '../db.json';
 import './Watch.css';
 import AudioPlayer from "./AudioPlayer";
-import Progress from "./Progress";
+import Play from "./Play";
+import Pause from "./Pause";
+import Bar from "./Bar";
+import useAudioPlayer from './useAudioPlayer';
 
 const Watch = ({ id }) => {
+    const { curTime, duration, progress, playing, setPlaying, setClickedTime } = useAudioPlayer();
     const [audioObj, setAudioProgress] = useState({});
-    let audio,  interval;
-    if(id){
-    audio = new Audio("/audio/"+db[id].src);
+
+    // useEffect(() => {
+    //     setPlaying(true);
+    //     return () => {
+    //         setPlaying(false);
+    //       }
+
+    //   });
     
-    }
-    useEffect(() => {
-        if(id){
-        // audio.play();
-        interval = setInterval(() => {
-            let currentTime = audio.currentTime;
-            let progress = (audio.currentTime / audio.duration) * 100;
-            // setCurrentTime(currentTime);
-          }, 10);
-        }
-        return () => {
-            if(id){
-            // audio.pause();
-            clearInterval(interval);
-            }
-          }
-
-      });   
-
-      const handleListen = (obj) =>{
-        //   console.log(obj);
-        // setAudioProgress(obj);
-      }
-    
-      
-
     return (
       <>
         {id ? (
@@ -46,16 +29,27 @@ const Watch = ({ id }) => {
                     <div style={{fontSize:"30px", marginTop:"30px"}}>الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا وَهُوَ الْعَزِيزُ الْغَفُورُ</div>
                     <div  style={{fontSize:"22px", marginTop:"30px"}}>He Who created Death and Life, that He may try which of you is best in deed: and He is the Exalted in Might, Oft-Forgiving.</div>
                     <div>
-                    
-                        <AudioPlayer src={db[id].src}
-                            onListen={handleListen}
-                        />
-                    
+                    <audio id="audio">
+                        <source src={"/audio/" + db[id].src} />
+                        Your browser does not support the <code>audio</code> element.
+                    </audio>
                     </div>
                 </span>
             </div>
           </div>
-          <Progress/>
+          <Bar
+            curTime={curTime}
+            duration={duration}
+            progress={progress}
+            onTimeUpdate={(time) => setClickedTime(time)}
+          />
+          <div>
+          {playing ? 
+          <Pause handleClick={() => setPlaying(false)} /> :
+          <Play handleClick={() => setPlaying(true)} />
+        }
+              
+            </div>
       </>
         ) : (
           <></>

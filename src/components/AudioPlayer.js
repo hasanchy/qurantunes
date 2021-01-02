@@ -3,14 +3,15 @@ import React, { useState, useEffect } from 'react';
   const AudioPlayer=(props) =>{
     const [currentTime, setCurrentTime] = useState("");
     let audio,  interval;
-    audio = new Audio("/audio/"+props.src);
+    audio = new Audio("/audio/" + props.src);
     useEffect(() => {
+        console.log( 'component did mount' );
         audio.play();
         interval = setInterval(() => {
             let currentTime = audio.currentTime;
             let progress = (audio.currentTime / audio.duration) * 100;
             props.onListen({currentTime, progress});
-            // setCurrentTime(currentTime);
+            //setCurrentTime(currentTime);
           }, 10);
         return () => {
             audio.pause();

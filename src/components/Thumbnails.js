@@ -8,11 +8,11 @@ import {
       let tmb = [];
     for(let id in db){
         tmb.push(
-            <Link  key={id} to={"/watch?q="+id}>
+            <a  key={id} href={"/watch?q="+id}>
                 <div style={{border:"1px solid #ddd", padding:"10px"}}>
                 {db[id].name}
                 </div>
-              </Link>
+              </a>
         )
         }
 
