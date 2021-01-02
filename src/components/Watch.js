@@ -5,42 +5,40 @@ import AudioPlayer from "./AudioPlayer";
 import Play from "./Play";
 import Pause from "./Pause";
 import Bar from "./Bar";
+import Subtitle from "./Subtitle";
 import useAudioPlayer from './useAudioPlayer';
 
 const Watch = ({ id }) => {
-    const { curTime, duration, progress, playing, setPlaying, setClickedTime } = useAudioPlayer();
+    const { curTime, duration, playing, setPlaying, setClickedTime } = useAudioPlayer();
     const [audioObj, setAudioProgress] = useState({});
+    const getRandom = (min, max) => Math.floor(Math.random() * (max - min + 1) + min);
 
-    // useEffect(() => {
-    //     setPlaying(true);
-    //     return () => {
-    //         setPlaying(false);
-    //       }
-
-    //   });
-    
+    let img;
+    if(id){
+        // let maxIndex = db[id].img.length-1;
+        // let imageIndex = getRandom(0,maxIndex)
+        img = db[id].img[0];
+    }
     return (
       <>
         {id ? (
             <>
-        <div id="animate-area" style={{backgroundImage:"url(http://localhost:3000/image/"+db[id].img+")"}}>
+        <div id="animate-area" style={{backgroundImage:"url(http://localhost:3000/image/"+img+")"}}>
             <div style={{width:"100%", height:"100%", backgroundColor:"rgb(0, 0, 0, .7)", color:"#fff", textAlign:"center", fontSize:"14", fontWeight:"bold",}}>
-                <span style={{display:"inline-block",padding:"20px"}}>
-                    <div style={{fontSize:"30px", marginTop:"30px"}}>الَّذِي خَلَقَ الْمَوْتَ وَالْحَيَاةَ لِيَبْلُوَكُمْ أَيُّكُمْ أَحْسَنُ عَمَلًا وَهُوَ الْعَزِيزُ الْغَفُورُ</div>
-                    <div  style={{fontSize:"22px", marginTop:"30px"}}>He Who created Death and Life, that He may try which of you is best in deed: and He is the Exalted in Might, Oft-Forgiving.</div>
-                    <div>
-                    <audio id="audio">
-                        <source src={"/audio/" + db[id].src} />
-                        Your browser does not support the <code>audio</code> element.
-                    </audio>
-                    </div>
-                </span>
+                <Subtitle
+                    curTime={curTime}
+                    duration={duration}
+                    text={db[id].text}
+                />
+                <audio id="audio">
+                            <source src={"/audio/" + db[id].src} />
+                            Your browser does not support the <code>audio</code> element.
+                        </audio>
             </div>
           </div>
           <Bar
             curTime={curTime}
             duration={duration}
-            progress={progress}
             onTimeUpdate={(time) => setClickedTime(time)}
           />
           <div>

@@ -12,5 +12,5 @@
     background-size:cover;
     background-position: 0px 0px;
     background-repeat: repeat-x;
-    animation: animatedBackground 80s linear infinite alternate;
+    animation: animatedBackground 60s linear infinite alternate;
   }

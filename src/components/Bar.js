@@ -1,7 +1,8 @@
 
   function Bar(props){
 
-    const { duration, curTime, progress, onTimeUpdate } = props;
+    const { duration, curTime, onTimeUpdate } = props;
+    let progress = (curTime / duration) * 100;
 
     function calcClickedTime(e) {
         const clickPositionInPage = e.pageX;

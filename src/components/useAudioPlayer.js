@@ -3,7 +3,6 @@ import { useState, useEffect } from "react";
 function useAudioPlayer() {
   const [duration, setDuration] = useState();
   const [curTime, setCurTime] = useState();
-  const [progress, setProgress] = useState();
   const [playing, setPlaying] = useState(false);
   const [clickedTime, setClickedTime] = useState();
 
@@ -19,7 +18,6 @@ function useAudioPlayer() {
 
     const setAudioTime = () => {
         setCurTime(audio.currentTime);
-        setProgress((audio.currentTime / audio.duration) * 100);
     }
 
     // DOM listeners: update React state on DOM events
@@ -46,7 +44,6 @@ function useAudioPlayer() {
   return {
     curTime,
     duration,
-    progress,
     playing,
     setPlaying,
     setClickedTime
