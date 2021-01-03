@@ -23,7 +23,7 @@ const Watch = ({ id }) => {
       <>
         {id ? (
             <>
-        <div id="animate-area" style={{backgroundImage:"url(http://localhost:3000/image/"+img+")"}}>
+        <div id="animate-area" style={{backgroundImage:"url(/image/"+img+")"}}>
             <div style={{width:"100%", height:"100%", backgroundColor:"rgb(0, 0, 0, .7)", color:"#fff", textAlign:"center", fontSize:"14", fontWeight:"bold",}}>
                 <Subtitle
                     curTime={curTime}
