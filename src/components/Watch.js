@@ -6,6 +6,7 @@ import Play from "./Play";
 import Pause from "./Pause";
 import Bar from "./Bar";
 import Subtitle from "./Subtitle";
+import DetailsView from './DetailsView';
 import useAudioPlayer from './useAudioPlayer';
 
 const Watch = ({ id }) => {
@@ -25,6 +26,11 @@ const Watch = ({ id }) => {
             <>
         <div id="animate-area" style={{backgroundImage:"url(/image/"+img+")"}}>
             <div style={{width:"100%", height:"100%", backgroundColor:"rgb(0, 0, 0, .7)", color:"#fff", textAlign:"center", fontSize:"14", fontWeight:"bold",}}>
+                <DetailsView
+                  playing={playing}
+                  curTime={curTime}
+                  details={db[id].details}
+                />
                 <Subtitle
                     curTime={curTime}
                     duration={duration}
