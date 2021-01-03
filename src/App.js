@@ -36,9 +36,14 @@ function QueryParamsDemo() {
   let query = useQuery();
 
   return (
-    <div  style={{padding:"30px"}}>
-      <Watch id={query.get("q")} />
-      <Thumbnails/>
+    <div>
+      <div style={{padding:"10px 0 0 28px"}}>
+        <a href="/"><img src="/image/logo.png" width="200px"/></a>
+      </div>
+      <div  style={{padding:"30px"}}>
+        <Watch id={query.get("q")} />
+        <Thumbnails/>
+      </div>
     </div>
   );
 }
