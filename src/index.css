@@ -25,3 +25,8 @@
   .player__button:hover {
     cursor: pointer;
   }
+
+  body {
+    margin: 0;
+    height: 100%;
+  }

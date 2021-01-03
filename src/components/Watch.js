@@ -53,12 +53,16 @@ const Watch = ({ id }) => {
             duration={duration}
             onTimeUpdate={(time) => setClickedTime(time)}
           />
-          <div style={{backgroundColor:"#efefef", paddingTop:"10px"}}>
-          {playing ? 
-          <Pause handleClick={() => setPlaying(false)} /> :
-          <Play handleClick={() => setPlaying(true)} />
-        }
+          <div style={{backgroundColor:"#efefef", display: "flex"}}>
+            <div style={{float:"left"}}>
+              {playing ? 
+                <Pause handleClick={() => setPlaying(false)} /> :
+                <Play handleClick={() => setPlaying(true)} />
+              }
+            </div>
+            <div style={{float:"left", width:"100px"}}>
               
+            </div>
             </div>
       </div>
         ) : (
