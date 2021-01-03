@@ -8,11 +8,13 @@ import {
       let tmb = [];
     for(let id in db){
         tmb.push(
+          <div style={{float:'left', marginRight:'20px'}}>
             <a  key={id} href={"/watch?q="+id}>
                 <div style={{border:"1px solid #ddd", padding:"10px"}}>
-                {db[id].name}
+                <img src={"/image/thumbnails/"+id+".png"} height="150px"/>
                 </div>
               </a>
+          </div>
         )
         }
 
