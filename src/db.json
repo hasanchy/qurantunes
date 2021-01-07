@@ -358,5 +358,108 @@
 				"bn": "হে ঈমানদানগণ! ধৈর্য্য ধারণ কর এবং মোকাবেলায় দৃঢ়তা অবলম্বন কর। আর আল্লাহকে ভয় করতে থাক যাতে তোমরা তোমাদের উদ্দেশ্য লাভে সমর্থ হতে পার।"
 			}
 		}
-	}
+    },
+    "8djkXgrtLeS":{
+        "name":"059 - Surah Al-Hashr",
+        "src":"059-Surah-Al-Hashr.mp3",
+        "img":["unvrs5.jpg"],
+        "details":{
+            "title":"Surah Al-Hashr (The Exile)",
+            "description":"Chapter 59, Verse 18 - 24",
+            "reciter":"Abdullah Altun",
+            "translator":"Dr. Mustafa Khattab, the Clear Quran"
+        },
+        "text":{
+            "1":{
+                "sa":"أعوذُ بِٱللَّهِ مِنَ ٱلشَّيۡطَٰنِ ٱلرَّجِيمِ",
+                "en":"I seek refuge in Allah from the outcast Satan.",
+                "bn":"আমি বিতাড়িত শয়তানে হতে আল্লাহর নিকট আশ্রয় প্রার্থনা করছি।"
+            },
+            "9":{
+                "sa":"بِسْمِ اللّهِ الرَّحْمـَنِ الرَّحِيمِ",
+                "en":"In the name of Allah, Most Gracious, Most Merciful.",
+                "bn":"শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।"
+            },
+            "23":{
+                "sa":"يَا أَيُّهَا الَّذِينَ آمَنُوا اتَّقُوا اللَّ",
+                "en":"O believers! Be mindful of Allah",
+                "bn":"হে মু’মিনগণ! তোমরা আল্লাহকে ভয় কর।"
+            },
+            "57":{
+                "sa":"وَلْتَنظُرْ نَفْسٌ مَّا قَدَّمَتْ لِغَدٍ",
+                "en":"and let every soul look to what ˹deeds˺ it has sent forth for tomorrow.",
+                "bn":"প্রত্যেকেই চিন্তা করে দেখুক, আগামীকালের জন্য সে কী (পুণ্য কাজ) অগ্রিম পাঠিয়েছে।"
+            },
+            "71":{
+                "sa":"وَاتَّقُوا اللَّهَ",
+                "en":"And fear Allah,",
+                "bn":"আর তোমরা আল্লাহকে ভয় কর,"
+            },
+            "83":{
+                "sa":"إِنَّ اللَّهَ خَبِيرٌ بِمَا تَعْمَلُونَ",
+                "en":"˹for˺ certainly Allah is All-Aware of what you do.",
+                "bn":"তোমরা যা কর আল্লাহ সে সম্পর্কে পুরোপুরি খবর রাখেন।আল্লাহ তা’আলাকে ভয় করতে থাক।"
+            },
+            "101":{
+                "sa":"وَلَا تَكُونُوا كَالَّذِينَ نَسُوا اللَّهَ فَأَنسَاهُمْ أَنفُسَهُمْ",
+                "en":"And do not be like those who forgot Allah, so He made them forget themselves.",
+                "bn":"তোমরা তাদের মত হয়ো না যারা আল্লাহকে ভুলে গেছে, ফলে আল্লাহও তাদেরকে করেছেন আত্মভোলা।"
+            },
+            "120":{
+                "sa":"أُوْلَئِكَ هُمُ الْفَاسِقُونَ",
+                "en":"It is they who are ˹truly˺ rebellious.",
+                "bn":"এরা পাপাচারী লোক।"
+            },
+            "137":{
+                "sa":"لَا يَسْتَوِي أَصْحَابُ النَّارِ وَأَصْحَابُ الْجَنَّةِ",
+                "en":"The residents of the Fire cannot be equal to the residents of Paradise.",
+                "bn":"জাহান্নামের অধিবাসী এবং জান্নাতের অধিবাসী সমান হতে পারে না।"
+            },
+            "156":{
+                "sa":"أَصْحَابُ الْجَنَّةِ هُمُ الْفَائِزُونَ",
+                "en":"˹Only˺ the residents of Paradise will be successful.",
+                "bn":"যারা জান্নাতের অধিবাসী, তারাই সফলকাম।"
+            },
+            "171":{
+                "sa":"لَا يَسْتَوِي أَصْحَابُ النَّارِ وَأَصْحَابُ الْجَنَّةِ أَصْحَابُ الْجَنَّةِ هُمُ الْفَائِزُونَ",
+                "en":"The residents of the Fire cannot be equal to the residents of Paradise. ˹Only˺ the residents of Paradise will be successful.",
+                "bn":"জাহান্নামের অধিবাসী আর জান্নাতের অধিবাসী সমান হতে পারে না, জান্নাতের অধিবাসীরাই সফল।"
+            },
+            "204":{
+                "sa":"لَوْ أَنزَلْنَا هَذَا الْقُرْآنَ عَلَى جَبَلٍ لَّرَأَيْتَهُ خَاشِعًا مُّتَصَدِّعًا مِّنْ خَشْيَةِ اللَّهِ",
+                "en":"Had We sent down this Quran upon a mountain, you would have certainly seen it humbled and torn apart in awe of Allah.",
+                "bn":"আমি যদি এ কুরআনকে পাহাড়ের উপর অবতীর্ণ করতাম, তাহলে তুমি আল্লাহর ভয়ে তাকে বিনীত ও বিদীর্ণ দেখতে।"
+            },
+            "248":{
+                "sa":"وَتِلْكَ الْأَمْثَالُ نَضْرِبُهَا لِلنَّاسِ لَعَلَّهُمْ يَتَفَكَّرُونَ",
+                "en":"We set forth such comparisons for people, ˹so˺ perhaps they may reflect.",
+                "bn":"এ সব উদাহরণ আমি মানুষের জন্য বর্ণনা করি যাতে তারা (নিজেদের ব্যাপারে) চিন্তা-ভাবনা করে।"
+            },
+            "270":{
+                "sa":"هُوَ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ عَالِمُ الْغَيْبِ وَالشَّهَادَةِ هُوَ الرَّحْمَنُ الرَّحِيمُ",
+                "en":"He is Allah—there is no god ˹worthy of worship˺ except Him: Knower of the seen and unseen. He is the Most Compassionate, Most Merciful.",
+                "bn":"তিনিই আল্লাহ, যিনি ছাড়া সত্যিকারের কোন ইলাহ নেই, অদৃশ্য ও দৃশের জ্ঞানের অধিকারী, পরম দয়াময়, পরম দয়ালু।"
+            },
+            "329":{
+                "sa":"هُوَ اللَّهُ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْمَلِكُ الْقُدُّوسُ السَّلَامُ الْمُؤْمِنُ الْمُهَيْمِنُ الْعَزِيزُ الْجَبَّارُ الْمُتَكَبِّرُ",
+                "en":"He is Allah—there is no god except Him: the King, the Most Holy, the All-Perfect, the Source of Serenity, the Watcher ˹of all˺, the Almighty, the Supreme in Might, the Majestic.",
+                "bn":"তিনিই আল্লাহ যিনি ছাড়া সত্যিকারের কোন ইলাহ নেই, তিনিই বাদশাহ, অতি পবিত্র, পূর্ণ শান্তিময়, নিরাপত্তা দানকারী, প্রতাপশালী, পর্যবেক্ষক, মহা পরাক্রমশালী, অপ্রতিরোধ্য, প্রকৃত গর্বের অধিকারী।"
+            },
+            "431":{
+                "sa":"سُبْحَانَ اللَّهِ عَمَّا يُشْرِكُونَ",
+                "en":"Glorified is Allah far above what they associate with Him ˹in worship˺!",
+                "bn":"তারা যাকে (তাঁর) শরীক করে তা থেকে তিনি পবিত্র, মহান।"
+            },
+            "460":{
+                "sa":"هُوَ اللَّهُ الْخَالِقُ الْبَارِئُ الْمُصَوِّرُ لَهُ الْأَسْمَاء الْحُسْنَى",
+                "en":"He is Allah: the Creator, the Inventor, the Shaper. He ˹alone˺ has the Most Beautiful Names.",
+                "bn":"তিনিই আল্লাহ সৃষ্টিকারী, উদ্ভাবনকারী, আকার আকৃতি প্রদানকারী। সমস্ত উত্তম নামের অধিকারী।"
+            },
+            "503":{
+                "sa":"يُسَبِّحُ لَهُ مَا فِي السَّمَاوَاتِ وَالْأَرْضِ وَهُوَ الْعَزِيزُ الْحَكِيمُ",
+                "en":"Whatever is in the heavens and the earth ˹constantly˺ glorifies Him. And He is the Almighty, All-Wise.",
+                "bn":"আসমান ও যমীনে যা আছে সবই তাঁর গৌরব ও মহিমা ঘোষণা করে। তিনি প্রবল পরাক্রান্ত মহা প্রজ্ঞাবান।"
+            }
+        }
+    }
 }
