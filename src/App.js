@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Thumbnails  from "./components/Thumbnails";
 import Watch  from "./components/Watch";
+import ReactGA from 'react-ga';
 
 // React Router does not have any opinions about
 // how you should parse URL query strings.
@@ -34,6 +35,7 @@ function useQuery() {
 
 function QueryParamsDemo() {
   let query = useQuery();
+  ReactGA.pageview(window.location.pathname + window.location.search);
 
   return (
     <div>

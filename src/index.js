@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import './index.css';
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-187510875-1');
 
 ReactDOM.render(
   <React.StrictMode>
