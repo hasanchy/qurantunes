@@ -6,7 +6,7 @@
     for( var t in text ){
       if( t <= curTime ){
         sa = text[t].sa;
-        translation = text[t].en;
+        translation = text[t].bn;
       }
     }
 

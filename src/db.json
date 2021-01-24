@@ -1,4 +1,109 @@
 {
+	"8agbKwkgLxK": {
+		"name": "014 - Surah Ibrahim",
+		"src": "14-Surah-Ibrahim.mp3",
+		"img": [
+			"pyramid1.jpg"
+		],
+		"details": {
+			"title": "Surah Ibrahim (Abraham)",
+			"description": "Chapter 14, Verse 1 - 8",
+			"reciter": "Omar Hisham Al Arabi",
+			"translator": "Dr. Mustafa Khattab, the Clear Quran"
+		},
+		"text": {
+			"1": {
+				"sa": "أعوذُ بِٱللَّهِ مِنَ ٱلشَّيۡطَٰنِ ٱلرَّجِيمِ",
+				"en": "I seek refuge in Allah from the outcast Satan.",
+				"bn": "আমি বিতাড়িত শয়তানে হতে আল্লাহর নিকট আশ্রয় প্রার্থনা করছি।"
+			},
+			"7": {
+				"sa": "بِسْمِ اللّهِ الرَّحْمـَنِ الرَّحِيمِ",
+				"en": "In the name of Allah, Most Gracious, Most Merciful.",
+				"bn": "শুরু করছি আল্লাহর নামে যিনি পরম করুণাময়, অতি দয়ালু।"
+			},
+			"13": {
+				"sa": "الَر",
+				"en": "Alif-Lãm-Ra.",
+				"bn": "আলিফ-লাম-র,"
+			},
+			"19": {
+				"sa": "كِتَابٌ أَنزَلْنَاهُ إِلَيْكَ لِتُخْرِجَ النَّاسَ مِنَ الظُّلُمَاتِ إِلَى النُّورِ بِإِذْنِ رَبِّهِمْ إِلَى صِرَاطِ الْعَزِيزِ الْحَمِيدِ",
+				"en": "˹This is˺ a Book which We have revealed to you ˹O Prophet˺ so that you may lead people out of darkness and into light, by the Will of their Lord, to the Path of the Almighty, the Praiseworthy",
+				"bn": "একটা কিতাব যা তোমার প্রতি অবতীর্ণ করেছি যাতে তুমি মানুষকে তাদের প্রতিপালকের নির্দেশে অন্ধকার থেকে নিয়ে আসতে পার আলোর দিকে- মহাপরাক্রমশালী প্রশংসিতের পথে।"
+			},
+			"35": {
+				"sa": "اللّهِ الَّذِي لَهُ مَا فِي السَّمَاوَاتِ وَمَا فِي الأَرْضِ",
+				"en": "Allah, to Whom belongs whatever is in the heavens and whatever is on the earth.",
+				"bn": "আল্লাহ- আসমানসমূহে যা কিছু আছে আর পৃথিবীতে যা কিছু আছে, সবই তাঁর মালিকানাধীন।"
+			},
+			"41": {
+				"sa": "وَوَيْلٌ لِّلْكَافِرِينَ مِنْ عَذَابٍ شَدِيدٍ",
+				"en": "And woe to the disbelievers because of a severe torment!",
+				"bn": "কিন্তু কাফিরদের জন্য আছে কঠিন শাস্তির দুর্ভোগ।"
+			},
+			"49": {
+				"sa": "الَّذِينَ يَسْتَحِبُّونَ الْحَيَاةَ الدُّنْيَا عَلَى الآخِرَةِ وَيَصُدُّونَ عَن سَبِيلِ اللّهِ وَيَبْغُونَهَا عِوَجًا",
+				"en": "˹They are˺ the ones who favour the life of this world over the Hereafter and hinder ˹others˺ from the Way of Allah, striving to make it ˹appear˺ crooked.",
+				"bn": "যারা আখেরাতের তুলনায় দুনিয়ার জিন্দিগীকে শ্রেয় জ্ঞান করে, যারা আল্লাহর পথ থেকে (লোকদেরকে) বিরত রাখে আর তাতে বক্রতা আনার আকাঙ্ক্ষা পোষণ করে।"
+			},
+			"61": {
+				"sa": "أُوْلَـئِكَ فِي ضَلاَلٍ بَعِيدٍ",
+				"en": "It is they who have gone far astray.",
+				"bn": "এরা গোমরাহীতে বহু দূরে চলে গেছে।"
+			},
+			"69": {
+				"sa": "وَمَا أَرْسَلْنَا مِن رَّسُولٍ إِلاَّ بِلِسَانِ قَوْمِهِ لِيُبَيِّنَ لَهُمْ",
+				"en": "We have not sent a messenger except in the language of his people to clarify ˹the message˺ for them.",
+				"bn": "আমি কোন রসূলকেই তার জাতির ভাষা ছাড়া পাঠাইনি যাতে তাদের কাছে স্পষ্টভাবে (আমার নির্দেশগুলো) বর্ণনা করতে পারে।"
+			},
+			"77": {
+				"sa": "فَيُضِلُّ اللّهُ مَن يَشَاء وَيَهْدِي مَن يَشَاء",
+				"en": "Then Allah leaves whoever He wills to stray and guides whoever He wills.",
+				"bn": "অতঃপর আল্লাহ যাকে ইচ্ছে পথহারা করেছেন, আর যাকে ইচ্ছে সঠিক পথ দেখিয়েছেন,"
+			},
+			"86": {
+				"sa": "وَهُوَ الْعَزِيزُ الْحَكِيمُ",
+				"en": "And He is the Almighty, All-Wise.",
+				"bn": "তিনি বড়ই পরাক্রান্ত, বিজ্ঞানময়।"
+			},
+			"91": {
+				"sa": "وَلَقَدْ أَرْسَلْنَا مُوسَى بِآيَاتِنَا أَنْ أَخْرِجْ قَوْمَكَ مِنَ الظُّلُمَاتِ إِلَى النُّورِ وَذَكِّرْهُمْ بِأَيَّامِ اللّهِ",
+				"en": "Indeed, We sent Moses with Our signs, ˹ordering him,˺ “Lead your people out of darkness and into light, and remind them of Allah’s days ˹of favour˺.”",
+				"bn": "আর অবশ্যই আমি মূসাকে আমার নিদর্শনসমূহ দিয়ে পাঠিয়েছিলাম আর বলেছিলাম, তোমার জাতিকে অন্ধকার থেকে আলোতে বের করে আন, আর তাদেরকে আল্লাহর হুকুমে ঘটিত অতীতের ঘটনাবলী দিয়ে উপদেশ দাও।"
+			},
+			"106": {
+				"sa": "إِنَّ فِي ذَلِكَ لآيَاتٍ لِّكُلِّ صَبَّارٍ شَكُورٍ",
+				"en": "Surely in this are signs for whoever is steadfast, grateful.",
+				"bn": "এতে প্রত্যেক পরম সহিষ্ণু ও পরম কৃতজ্ঞ ব্যক্তির জন্য অবশ্যই নিদর্শনসমূহ রয়েছে।"
+			},
+			"116": {
+				"sa": "وَإِذْ قَالَ مُوسَى لِقَوْمِهِ اذْكُرُواْ نِعْمَةَ اللّهِ عَلَيْكُمْ إِذْ أَنجَاكُم مِّنْ آلِ فِرْعَوْنَ يَسُومُونَكُمْ سُوءَ الْعَذَابِ وَيُذَبِّحُونَ أَبْنَاءكُمْ وَيَسْتَحْيُونَ نِسَاءكُمْ",
+				"en": "˹Consider˺ when Moses said to his people, “Remember Allah’s favour upon you when He rescued you from the people of Pharaoh, who afflicted you with dreadful torment—slaughtering your sons and keeping your women.",
+				"bn": "স্মরণ কর, যখন মূসা তার সম্প্রদায়কে বলেছিল, ‘তোমরা তোমাদের প্রতি আল্লাহর নি‘মাতের কথা স্মরণ কর যখন তিনি তোমাদেরকে ফির‘আওনী গোষ্ঠী থেকে রক্ষা করেছিলেন যারা তোমাদেরকে জঘন্য রকমের শাস্তিতে পিষ্ট করছিল। তোমাদের পুত্রদেরকে তারা হত্যা করত আর তোমাদের নারীদেরকে জীবিত রাখত।"
+			},
+			"149": {
+				"sa": "وَفِي ذَلِكُم بَلاء مِّن رَّبِّكُمْ عَظِيمٌ",
+				"en": "That was a severe test from your Lord.",
+				"bn": "এটা ছিল তোমাদের জন্য আল্লাহর পক্ষ হতে এক কঠিন পরীক্ষা।"
+			},
+			"158": {
+				"sa": "وَإِذْ تَأَذَّنَ رَبُّكُمْ لَئِن شَكَرْتُمْ لأَزِيدَنَّكُمْ",
+				"en": "And ˹remember˺ when your Lord proclaimed, ‘If you are grateful, I will certainly give you more.",
+				"bn": "স্মরণ কর, যখন তোমাদের প্রতিপালক ঘোষণা করেন, যদি তোমরা কৃতজ্ঞতা প্রকাশ কর তাহলে আমি অবশ্যই তোমাদের জন্য (আমার নি‘য়ামাত) বৃদ্ধি করে দেব,"
+			},
+			"172":{
+				"sa":"وَلَئِن كَفَرْتُمْ إِنَّ عَذَابِي لَشَدِيدٌ",
+				"en":"But if you are ungrateful, surely My punishment is severe.’”",
+				"bn":" আর যদি তোমরা অকৃতজ্ঞ হও (তবে জেনে রেখ, অকৃতজ্ঞদের জন্য) আমার শাস্তি অবশ্যই কঠিন।"
+			},
+			"179": {
+				"sa": "وَقَالَ مُوسَى إِن تَكْفُرُواْ أَنتُمْ وَمَن فِي الأَرْضِ جَمِيعًا فَإِنَّ اللّهَ لَغَنِيٌّ حَمِيدٌ",
+				"en": "Moses added, “If you along with everyone on earth were to be ungrateful, then ˹know that˺ Allah is indeed Self-Sufficient, Praiseworthy.”",
+				"bn": "মূসা বলেছিল, তোমরা আর দুনিয়ার সকল লোক যদি অকৃতজ্ঞ হও (তাতে কিছুই যায় আসে না) কারণ আল্লাহ অমুখাপেক্ষী, প্রশংসিত।"
+			}
+		}
+	},
 	"4pfbNgkfPtM": {
 		"name": "002 - Surah Baqarah",
 		"src": "baqarah.mp3",
