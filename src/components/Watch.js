@@ -43,8 +43,8 @@ const Watch = ({ id }) => {
 								/>
 								<audio id="audio">
 									<source src={"/audio/" + db[id].src} />
-                      Your browser does not support the <code>audio</code> element.
-                  </audio>
+									Your browser does not support the <code>audio</code> element.
+								</audio>
 							</div>
 						</div>
 					</div>
@@ -61,7 +61,10 @@ const Watch = ({ id }) => {
 							}
 						</div>
 						<div style={{ float: "left", width: "100px" }}>
-
+							<select>
+								<option>Bengali</option>
+								<option>English</option>
+							</select>
 						</div>
 					</div>
 				</div>
